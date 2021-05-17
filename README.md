@@ -1,7 +1,5 @@
 <h1 align="center">
-  <br>
-  <a href="https://lakshman-natours.herokuapp.com/"><img src="https://github.com/lgope/Natours/blob/master/public/img/logo-green-round.png" alt="Natours" width="200"></a>
-  <br>
+
   Natours
   <br>
 </h1>
@@ -11,20 +9,12 @@
  <p align="center">
  <a href="#deployed-version">Demo</a> •
   <a href="#key-features">Key Features</a> •
-  <a href="#demonstration">Demonstration</a> •
+  
   <a href="#how-to-use">How To Use</a> •
   <a href="#api-usage">API Usage</a> •
   <a href="#deployment">Deployment</a> •
-  <a href="#build-with">Build With</a> •
-  <a href="#to-do">To-do</a> •
-  <a href="#installation">Installation</a> • 
-  <a href="#known-bugs">Known Bugs</a> • 
-  <a href="#future-updates">Future Updates</a> • 
-  <a href="#acknowledgement">Acknowledgement</a>
-</p>
 
-## Deployed Version
-Live demo (Feel free to visit) 👉 : https://lakshman-natours.herokuapp.com/
+</p>
 
 
 ## Key Features
@@ -36,27 +26,6 @@ Live demo (Feel free to visit) 👉 : https://lakshman-natours.herokuapp.com/
 * User profile
   - Update username, photo, email, and password
 * Credit card Payment
-
-
-## Demonstration
-#### Home Page :
-![natoursHomePageonline-video-cutt](https://user-images.githubusercontent.com/58518192/72606801-7ebe0680-3949-11ea-8e88-613f022a64e5.gif)
-
-#### Tour Details :
-![tourOverviewonline-video-cutterc](https://user-images.githubusercontent.com/58518192/72606859-a0b78900-3949-11ea-8f0d-ef44c789957b.gif)
-
-#### Payment Process :
-![paymentprocess-1-ycnhrceamp4-7fW](https://user-images.githubusercontent.com/58518192/72606973-d9eff900-3949-11ea-9a2e-f84a6581bef3.gif)
-
-#### Booked Tours :
-![rsz_bookedtours](https://user-images.githubusercontent.com/58518192/72607747-6a7b0900-394b-11ea-8b9f-5330531ca2eb.png)
-
-
-#### User Profile :
-![rsz_userprofile](https://user-images.githubusercontent.com/58518192/72607635-44edff80-394b-11ea-8943-64c48f6f19aa.png)
-
-#### Admin Profile :
-![rsz_adminprofile](https://user-images.githubusercontent.com/58518192/72607648-4d463a80-394b-11ea-972f-a73160cfaa5b.png)
 
 
 ## How To Use
@@ -98,28 +67,10 @@ Check [Natours API Documentation](https://documenter.getpostman.com/view/8689170
 
 <b> API Features: </b>
 
-Tours List 👉 https://lakshman-natours.herokuapp.com/api/v1/tours
-
-Tours State 👉 https://lakshman-natours.herokuapp.com/api/v1/tours/tour-stats
-
-Get Top 5 Cheap Tours 👉 https://lakshman-natours.herokuapp.com/api/v1/tours/top-5-cheap
-
-Get Tours Within Radius 👉 https://lakshman-natours.herokuapp.com/api/v1/tours/tours-within/200/center/34.098453,-118.096327/unit/mi
-
-
 
 ## Deployment
 The website is deployed with git into heroku. Below are the steps taken:
-```
-git init
-git add -A
-git commit -m "Commit message"
-heroku login
-heroku create
-heroku config:set CONFIG_KEY=CONFIG_VALUE
-parcel build ./public/js/index.js --out-dir ./public/js --out-file bundle.js
-git push heroku master
-heroku open
+
 ```
 You can also changed your website url by running this command:
 ```
@@ -151,38 +102,8 @@ heroku apps:rename natours-users
   - Prevent duplicate bookings after user has booked that exact tour, implement favourite tours
 * Advanced authentication features
   - Signup, confirm user email, login with refresh token, two-factor authentication
-* And More ! There's always room for improvement!
 
 
-## Installation
-You can fork the app or you can git-clone the app into your local machine. Once done that, please install all the
-dependencies by running
-```
-$ npm i
-set your env variables
-$ npm run watch:js
-$ npm run build:js
-$ npm run dev (for development)
-$ npm run start:prod (for production)
-$ npm run debug (for debug)
-$ npm start
-Setting up ESLint and Prettier in VS Code 👇
-$ npm i eslint prettier eslint-config-prettier eslint-plugin-prettier eslint-config-airbnb eslint-plugin-node
-eslint-plugin-import eslint-plugin-jsx-a11y  eslint-plugin-react --save-dev
-```
-
-
-## Known Bugs
-Feel free to email me at lakshman.gope2@gmail.com if you run into any issues or have questions, ideas or concerns.
-Please enjoy and feel free to share your opinion, constructive criticism, or comments about my work. Thank you! 🙂
-
-## Future Updates
-
-* Enable PWA
-* Improve overall UX/UI and fix bugs
-* Featured Tours
-* Recently Viewed Tours
-* And More ! There's always room for improvement!
 
 ## Acknowledgement
 
